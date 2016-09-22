@@ -26,6 +26,10 @@ It consumes JSON API `watch-this`.
 ### Instructions
 Ensure the backend `watch-this` is listening on default port `localhost:3000`
 
+Please note: Program gives TypeError on `.src/index.js` if running latest version of `node v6` using OS X Yosemite; (it was originally developed on OS X El Cap with `node v5`). 
+
+Using `node v5.12.0` on Yosemite appears to resolve this issue.
+
 ```
 npm install
 npm start
