@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "UI to consume API built on Redux with React and Babel support",
   "main": "index.js",
-  "repository": "git@stash.jellyvision.com:7999/~nickchristiny/ui-watch-this.git",
+  "repository": "git@github.com:nchristiny/ui-watch-this.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
